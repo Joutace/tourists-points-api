@@ -1,6 +1,6 @@
 """
-ASGI config for tourists_points_api project.
-    
+ASGI config for tourist_points_api project.
+
 It exposes the ASGI callable as a module-level variable named ``application``.
 
 For more information on this file, see
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tourists_points_api.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tourist_points_api.settings')
 
 application = get_asgi_application()
