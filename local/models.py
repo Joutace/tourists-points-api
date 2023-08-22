@@ -2,7 +2,7 @@
 from django.db import models
 
 
-class Attraction(models.Model):
+class Local(models.Model):
     "Class representing a tourist point"
     name = models.CharField(max_length=150)
     description = models.TextField()
